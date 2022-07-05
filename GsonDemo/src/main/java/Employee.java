@@ -48,21 +48,21 @@ public class Employee {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	public String toString(){
-		StringBuilder sb = new StringBuilder();
-		sb.append("***** Employee Details *****\n");
-		sb.append("ID="+getId()+"\n");
-		sb.append("Name="+getName()+"\n");
-		sb.append("Permanent="+isPermanent()+"\n");
-		sb.append("Role="+getRole()+"\n");
-		sb.append("Phone Numbers="+Arrays.toString(getPhoneNumbers())+"\n");
-		sb.append("Address="+getAddress()+"\n");
-		sb.append("Cities="+Arrays.toString(getCities().toArray())+"\n");
-		sb.append("Properties="+getProperties()+"\n");
-		sb.append("*****************************");
-		
-		return sb.toString();
-	}
+//	public String toString(){
+//		StringBuilder sb = new StringBuilder();
+//		sb.append("***** Employee Details *****\n");
+//		sb.append("ID="+getId()+"\n");
+//		sb.append("Name="+getName()+"\n");
+//		sb.append("Permanent="+isPermanent()+"\n");
+//		sb.append("Role="+getRole()+"\n");
+//		sb.append("Phone Numbers="+Arrays.toString(getPhoneNumbers())+"\n");
+//		sb.append("Address="+getAddress()+"\n");
+//		sb.append("Cities="+Arrays.toString(getCities().toArray())+"\n");
+//		sb.append("Properties="+getProperties()+"\n");
+//		sb.append("*****************************");
+//		
+//		return sb.toString();
+//	}
 	public List<String> getCities() {
 		return cities;
 	}

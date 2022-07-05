@@ -29,7 +29,7 @@ public class EmployeeGsonExample {
 		Employee emp1 = gson.fromJson(fileData, Employee.class);
 
 		// print object data
-		System.out.println("\n\nEmployee Object\n\n" + emp1);
+		//System.out.println("\n\nEmployee Object\n\n" + emp1);
 
 		// create JSON String from Object
 		String jsonEmp = gson.toJson(emp);
