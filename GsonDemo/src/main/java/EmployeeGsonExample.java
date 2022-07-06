@@ -12,6 +12,7 @@ import com.google.gson.GsonBuilder;
 public class EmployeeGsonExample {
 	public static void main(String[] args) {
 		Employee emp = createEmployee();
+		//Employee emp = createEmployee();
 
 		// Get Gson object
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
